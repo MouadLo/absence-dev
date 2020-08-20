@@ -173,7 +173,7 @@ export const EtudiantUpdate = (props: IEtudiantUpdateProps) => {
                   {classes
                     ? classes.map(otherEntity => (
                         <option value={otherEntity.id} key={otherEntity.id}>
-                          {otherEntity.idClasse}
+                          {otherEntity.nomClasse}
                         </option>
                       ))
                     : null}

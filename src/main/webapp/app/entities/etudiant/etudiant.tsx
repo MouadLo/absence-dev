@@ -78,7 +78,7 @@ export const Etudiant = (props: IEtudiantProps) => {
                   <td>{etudiant.nom}</td>
                   <td>{etudiant.prenom}</td>
                   <td>{etudiant.tel}</td>
-                  <td>{etudiant.classe ? <Link to={`classe/${etudiant.classe.id}`}>{etudiant.classe.idClasse}</Link> : ''}</td>
+                  <td>{etudiant.classe ? <Link to={`classe/${etudiant.classe.id}`}>{etudiant.classe.nomClasse}</Link> : ''}</td>
                   <td className="text-right">
                     <div className="btn-group flex-btn-group-container">
                       <Button tag={Link} to={`${match.url}/${etudiant.id}`} color="info" size="sm">

@@ -7,7 +7,7 @@
       "otherEntityName": "filiere",
       "relationshipType": "many-to-one",
       "relationshipValidateRules": [],
-      "otherEntityField": "idFiliere",
+      "otherEntityField": "nomFiliere",
       "otherEntityRelationshipName": "classe"
     },
     {

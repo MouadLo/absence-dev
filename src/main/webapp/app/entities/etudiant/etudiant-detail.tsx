@@ -70,7 +70,7 @@ export const EtudiantDetail = (props: IEtudiantDetailProps) => {
           <dt>
             <Translate contentKey="intranetApp.etudiant.classe">Classe</Translate>
           </dt>
-          <dd>{etudiantEntity.classe ? etudiantEntity.classe.idClasse : ''}</dd>
+          <dd>{etudiantEntity.classe ? etudiantEntity.classe.nomClasse : ''}</dd>
         </dl>
         <Button tag={Link} to="/etudiant" replace color="info">
           <FontAwesomeIcon icon="arrow-left" />{' '}

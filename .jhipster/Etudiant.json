@@ -6,7 +6,7 @@
       "relationshipName": "classe",
       "otherEntityName": "classe",
       "relationshipType": "many-to-one",
-      "otherEntityField": "idClasse",
+      "otherEntityField": "nomClasse",
       "otherEntityRelationshipName": "etudiant"
     },
     {

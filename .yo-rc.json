@@ -38,6 +38,9 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en", "fr"],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "salty-mountain-64617",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "1.8"
   }
 }
