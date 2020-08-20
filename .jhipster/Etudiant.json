@@ -1,0 +1,65 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "classe",
+      "otherEntityName": "classe",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "idClasse",
+      "otherEntityRelationshipName": "etudiant"
+    },
+    {
+      "relationshipName": "absence",
+      "otherEntityName": "absence",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "etudiant"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "mdp",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cne",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nom",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "prenom",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "tel",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    }
+  ],
+  "changelogDate": "20200813115129",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "etudiant",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

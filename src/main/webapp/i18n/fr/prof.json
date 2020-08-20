@@ -1,0 +1,29 @@
+{
+  "intranetApp": {
+    "prof": {
+      "home": {
+        "title": "Profs",
+        "createLabel": "Créer un nouveau Prof",
+        "createOrEditLabel": "Créer ou éditer un Prof",
+        "notFound": "Aucun Prof trouvé"
+      },
+      "created": "Un nouveau Prof a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Prof avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Prof avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Prof {{ id }} ?"
+      },
+      "detail": {
+        "title": "Prof"
+      },
+      "login": "Login",
+      "mdp": "Mdp",
+      "email": "Email",
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "type": "Type",
+      "tel": "Tel",
+      "matiere": "Matiere"
+    }
+  }
+}

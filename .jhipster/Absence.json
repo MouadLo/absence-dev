@@ -1,0 +1,36 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "horaire",
+      "otherEntityName": "horaire",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "idHoraire",
+      "otherEntityRelationshipName": "absence"
+    },
+    {
+      "relationshipName": "etudiant",
+      "otherEntityName": "etudiant",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "cne",
+      "otherEntityRelationshipName": "absence"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "idAbsence",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "changelogDate": "20200813115537",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "absence",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.miage.app",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "intranet",
+    "packageName": "com.miage.app",
+    "packageFolder": "com/miage/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmU2NDE1MDE3Mzg3YzFkZDkxYjhjOWRjOWY5ZWJlYmQ1NmQ0NTJmYmFmZjRkYmI0Mzg5ZTYzNTgzZGExZTE2MjkzMWMyOWEzYjgxZGE0OTkwZTAzZjUwM2RlODA5ODUzN2FiMDlkNzViMTBlOWVlMWIxMGE1ZWNmM2JjNjA5YTY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "simplex",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1597936326449,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fr"],
+    "blueprints": []
+  }
+}

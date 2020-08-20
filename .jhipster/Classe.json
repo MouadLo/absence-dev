@@ -1,0 +1,46 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "filiere",
+      "otherEntityName": "filiere",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": [],
+      "otherEntityField": "idFiliere",
+      "otherEntityRelationshipName": "classe"
+    },
+    {
+      "relationshipName": "etudiant",
+      "otherEntityName": "etudiant",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "classe"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "idClasse",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nomClasse",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "niveau",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "changelogDate": "20200813111304",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "classe",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

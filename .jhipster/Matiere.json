@@ -1,0 +1,48 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "horaire",
+      "otherEntityName": "horaire",
+      "relationshipType": "many-to-many",
+      "otherEntityField": "idHoraire",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "matiere"
+    },
+    {
+      "relationshipName": "prof",
+      "otherEntityName": "prof",
+      "relationshipType": "many-to-many",
+      "relationshipValidateRules": [],
+      "otherEntityField": "login",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "matiere"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "idMatiere",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nomMatiere",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "abreviation",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20200813120749",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "matiere",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}
